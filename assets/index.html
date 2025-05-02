@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ремонт квартир под ключ | Профессиональный ремонт в вашем городе</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <div class="header_inner">
+                <a href="#" class="logo">РемКвартира</a>
+                
+                <nav class="nav">
+                    <ul class="nav_list">
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#portfolio">Портфолио</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero_content">
+                <h1 class="hero_title">Профессиональный ремонт квартир под ключ</h1>
+                <p class="hero_subtitle">Превратим вашу квартиру в уютный и современный дом</p>
+                <button class="btn hero_btn" data-modal="#contact-form">Оставить заявку</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section_title">О нашей компании</h2>
+            <div class="about_content">
+                <div class="about_text">
+                    <p>Компания "РемКвартира" уже более 10 лет занимается качественным ремонтом квартир в вашем городе. Мы объединяем команду профессиональных строителей, дизайнеров и инженеров, чтобы реализовать ваши мечты о комфортном жилье.</p>
+                    <p>Наш подход - это индивидуальное решение для каждого клиента, использование качественных материалов и строгое соблюдение сроков.</p>
+                    <ul class="about_features">
+                        <li><i class="fas fa-check"></i> Более 200 успешных проектов</li>
+                        <li><i class="fas fa-check"></i> Гарантия на все работы</li>
+                        <li><i class="fas fa-check"></i> Фиксированные сроки</li>
+                        <li><i class="fas fa-check"></i> Прозрачная смета</li>
+                    </ul>
+                </div>
+                <div class="about_image">
+                    <img src="images/about/about.jpg" alt="Наша команда">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services -->
+    <section id="services" class="section services">
+        <div class="container">
+            <h2 class="section_title">Наши услуги</h2>
+            
+            <div class="accordion">
+                <div class="accordion_item">
+                    <div class="accordion_header">
+                        <h3>Косметический ремонт</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion_content">
+                        <p>Обновление внешнего вида помещения без изменения планировки. Включает покраску стен, поклейку обоев, замену напольного покрытия, замену сантехники и электрики при необходимости.</p>
+                        <p><strong>Сроки:</strong> от 14 дней</p>
+                        <p><strong>Цена:</strong> от 2 500 руб/м²</p>
+                    </div>
+                </div>
+                
+                <div class="accordion_item">
+                    <div class="accordion_header">
+                        <h3>Капитальный ремонт</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion_content">
+                        <p>Полное обновление квартиры с заменой всех инженерных систем, выравниванием стен и полов, заменой дверей и окон. Возможны небольшие изменения в планировке.</p>
+                        <p><strong>Сроки:</strong> от 30 дней</p>
+                        <p><strong>Цена:</strong> от 5 000 руб/м²</p>
+                    </div>
+                </div>
+                
+                <div class="accordion_item">
+                    <div class="accordion_header">
+                        <h3>Дизайнерский ремонт</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion_content">
+                        <p>Ремонт по индивидуальному дизайн-проекту с использованием премиальных материалов. Включает перепланировку, сложные отделочные работы, авторский надзор.</p>
+                        <p><strong>Сроки:</strong> от 60 дней</p>
+                        <p><strong>Цена:</strong> от 8 000 руб/м²</p>
+                    </div>
+                </div>
+                
+                <div class="accordion_item">
+                    <div class="accordion_header">
+                        <h3>Ремонт отдельных помещений</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="accordion_content">
+                        <p>Ремонт кухни, ванной комнаты, коридора или других отдельных помещений. Возможен комплексный подход или выполнение отдельных видов работ.</p>
+                        <p><strong>Сроки:</strong> индивидуально</p>
+                        <p><strong>Цена:</strong> зависит от объема</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio -->
+    <section id="portfolio" class="section portfolio">
+        <div class="container">
+            <h2 class="section_title">Наши работы</h2>
+            
+            <div class="slider">
+                <div class="slider_track">
+                    <div class="slider_slide">
+                        <img src="images/slider/portfolio_1.jpg" alt="Ремонт квартиры">
+                        <div class="slide_info">
+                            <h3>Квартира на ул. Ленина, 45</h3>
+                            <p>Капитальный ремонт 3-комнатной квартиры 85 м²</p>
+                            <p><strong>Срок:</strong> 45 дней</p>
+                        </div>
+                    </div>
+                    
+                    <div class="slider_slide">
+                        <img src="images/slider/portfolio_2.png" alt="Ремонт квартиры">
+                        <div class="slide_info">
+                            <h3>Квартира на пр. Мира, 12</h3>
+                            <p>Дизайнерский ремонт 2-комнатной квартиры 65 м²</p>
+                            <p><strong>Срок:</strong> 60 дней</p>
+                        </div>
+                    </div>
+                    
+                    <div class="slider_slide">
+                        <img src="images/slider/portfolio_3.jpg" alt="Ремонт квартиры">
+                        <div class="slide_info">
+                            <h3>Квартира на ул. Гагарина, 8</h3>
+                            <p>Косметический ремонт 1-комнатной квартиры 40 м²</p>
+                            <p><strong>Срок:</strong> 20 дней</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="slider_btn slider_btn-prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider_btn slider_btn-next"><i class="fas fa-chevron-right"></i></button>
+                
+                <div class="slider_dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- reviews -->
+    <section id="reviews" class="section reviews">
+        <div class="container">
+            <h2 class="section_title">Отзывы наших клиентов</h2>
+            
+            <div class="tabs">
+                <div class="tabs_header">
+                    <div class="tabs_btn active" data-tab="1">Иван С.</div>
+                    <div class="tabs_btn" data-tab="2">Ольга М.</div>
+                    <div class="tabs_btn" data-tab="3">Алексей К.</div>
+                </div>
+                
+                <div class="tabs_content">
+                    <div class="tabs_item active" data-tab="1">
+                        <div class="review">
+                            <div class="review_rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="review_text">"Очень доволен работой компании. Делали капитальный ремонт в трехкомнатной квартире. Все работы выполнены качественно и в срок. Особенно порадовало, что не было никаких скрытых платежей - итоговая сумма совпала со сметой."</p>
+                            <p class="review_author">Иван С., ремонт в июне 2022</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tabs_item" data-tab="2">
+                        <div class="review">
+                            <div class="review_rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p class="review_text">"Заказывали косметический ремонт кухни и ванной. Работы выполнены аккуратно, мастера вежливые и профессиональные. Единственное - немного затянули сроки, но это было связано с задержкой поставки плитки, которую мы сами выбирали."</p>
+                            <p class="review_author">Ольга М., ремонт в марте 2022</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tabs_item" data-tab="3">
+                        <div class="review">
+                            <div class="review_rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="review_text">"Делали дизайнерский ремонт по собственному проекту. Команда отлично справилась с реализацией наших идей. Все технические моменты были решены профессионально. По окончании работ получили подробные инструкции по уходу за материалами."</p>
+                            <p class="review_author">Алексей К., ремонт в январе 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contacts -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section_title">Оставьте заявку</h2>
+            
+            <form id="contact-form" class="form">
+                <div class="form_group">
+                    <input type="text" placeholder="Ваше имя" required>
+                </div>
+                
+                <div class="form_group">
+                    <input type="tel" placeholder="Ваш телефон" required>
+                </div>
+                
+                <div class="form_group">
+                    <input type="email" placeholder="Ваш email">
+                </div>
+                
+                <div class="form_group">
+                    <select>
+                        <option value="" disabled selected>Выберите тип ремонта</option>
+                        <option value="cosmetic">Косметический</option>
+                        <option value="capital">Капитальный</option>
+                        <option value="design">Дизайнерский</option>
+                        <option value="partial">Частичный</option>
+                    </select>
+                </div>
+                
+                <div class="form_group">
+                    <textarea placeholder="Ваши пожелания"></textarea>
+                </div>
+                
+                <button type="submit" class="btn form_btn">Отправить заявку</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_inner">
+                <div class="footer_col">
+                    <a href="#" class="logo footer_logo">РемКвартира</a>
+                    <p>Качественный ремонт квартир под ключ с гарантией</p>
+                </div>
+                
+                <div class="footer_col">
+                    <h3>Контакты</h3>
+                    <a href="tel:+79090909090">+7 (909) 090 90-90</a>
+                    <a href="mailto:info@remkvartira.ru">info@remkvartira.ru</a>
+                    <a href="#"> г. Казань, ул. Строителей, 15</a>
+                </div>
+                
+                <div class="footer_col">
+                    <h3>Мы в соцсетях</h3>
+                    <div class="social">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer_copy">
+                <p>&copy; 2023 "РемКвартира". Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
